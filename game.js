@@ -62,7 +62,7 @@ function gameOver(){
 
 function gameOverAnimation(){
 
-  $("h1").text("Game Over!");
+  $("h1").text("Game Over, bebbie!");
   $("h1").after("<h2 id='sub-title'>Press any key to start again</h2>");
    audioGameOver.play();
    $("body").addClass("game-over");
